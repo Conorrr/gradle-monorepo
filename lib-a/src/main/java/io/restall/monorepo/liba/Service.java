@@ -11,6 +11,6 @@ public class Service {
     }
 
     public String message() {
-        return util.transform("dlrow");
+        return util.transform("!dlrow");
     }
 }
