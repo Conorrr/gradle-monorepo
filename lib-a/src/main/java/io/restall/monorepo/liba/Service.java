@@ -1,4 +1,6 @@
-package io.restall.monorepo.libb;
+package io.restall.monorepo.liba;
+
+import io.restall.monorepo.libb.Util;
 
 public class Service {
 

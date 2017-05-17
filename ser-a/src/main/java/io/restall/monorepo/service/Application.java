@@ -1,7 +1,7 @@
 package io.restall.monorepo.service;
 
 import io.restall.monorepo.libb.Util;
-import io.restall.monorepo.libb.Service;
+import io.restall.monorepo.liba.Service;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
