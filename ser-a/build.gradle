@@ -1,0 +1,9 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.3.RELEASE'
+    id 'java'
+}
+
+dependencies {
+  compile project(':lib-a')
+  compile "org.springframework.boot:spring-boot-starter-jersey"
+}

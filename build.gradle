@@ -1,0 +1,8 @@
+group = 'io.restall'
+
+allprojects {
+  
+  repositories {
+    mavenCentral()
+  }
+}

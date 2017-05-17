@@ -1,0 +1,31 @@
+# Example Gradle MonoRepo
+
+To see the build in action check https://jenkins.restall.io/
+
+## Project Setup
+
+### Directory Structure
+```
+.
+├──lib-a
+├──lib-b
+└──ser-a
+```
+
+### Dependency Tree
+```
+├──ser-a
+|   └──lib-a
+|      └──lib-b
+```
+
+## Version Numbers
+
+To set a version number on produced artifacts ... TODO
+
+## Building
+
+To build all projects run `./gradlew build`
+
+Build a specific project run `./gradlew :{project-name}:build` e.g. `./gradlew :ser-a:build`
+
