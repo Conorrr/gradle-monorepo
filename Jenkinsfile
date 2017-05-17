@@ -1,4 +1,6 @@
-stage 'build_Project'
-node{
+stage 'build'
+node {
+  checkout scm
+
   sh './gradlew build --info'
 }
